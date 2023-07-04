@@ -1,0 +1,20 @@
+{
+  "name": "@csmtools/dopplerutils",
+  "version": "1.0.0",
+  "description": "A small node package for working with doppler phases in CSGO/CS2.",
+  "main": "build/index.js",
+  "repository": "https://github.com/CSMTools/DopplerUtils",
+  "author": "Albin Hedwall <albin.hedwall@gmail.com>",
+  "license": "GPL-3.0",
+  "private": false,
+  "devDependencies": {
+    "tsc": "^2.0.4",
+    "typescript": "^5.1.6"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
